@@ -9,6 +9,8 @@ import com.healthmarketscience.jackcess.Row;
 import com.healthmarketscience.jackcess.Table;
 
 public class Main {
+	
+	public static Test test;
 
 	public static File dbpath = new File("res/InventoryDB.accdb");
 	//public static String dbpath = "res/InventoryDB.accdb";
@@ -26,7 +28,8 @@ public class Main {
 			}
 		}	
 		Date create = new Date();
-		table.addRow(Column.AUTO_NUMBER, "Fill Light", "2154621", create, "Light", "No Note", "Mitchell", 1);
-		System.out.println("New Row Added");
+		//table.addRow(Column.AUTO_NUMBER, "Fill Light", "2154621", create, "Light", "No Note", "Mitchell", 6);
+		//System.out.println("New Row Added");
+		test = new Test();
 	}	
 }

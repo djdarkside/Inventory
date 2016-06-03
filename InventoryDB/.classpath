@@ -7,5 +7,15 @@
 	<classpathentry kind="lib" path="res/jackcess-2.1.4.jar" sourcepath="res/jackcess-2.1.4-sources.jar"/>
 	<classpathentry kind="lib" path="res/commons-lang-2.6.jar"/>
 	<classpathentry kind="lib" path="res/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jgoodies-forms.jar" sourcepath="lib/jgoodies-forms-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/InventoryDB/lib/jgoodies-forms-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jgoodies-common.jar" sourcepath="lib/jgoodies-common-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/InventoryDB/lib/jgoodies-common-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
